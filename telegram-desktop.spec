@@ -2,8 +2,8 @@
 %global bundled_fonts 1
 %global enable_wayland 1
 %global enable_x11 1
-%global legacy_ffmpeg 1
-%global legacy_openssl 1
+%global legacy_ffmpeg 0
+%global legacy_openssl 0
 
 # Telegram Desktop's constants...
 %global appname tdesktop
