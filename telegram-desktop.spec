@@ -34,7 +34,7 @@ Release: 1%{?dist}
 License: GPL-3.0-or-later AND BSD-3-Clause AND BSD-2-Clause AND Apache-2.0 AND MIT AND LicenseRef-Fedora-Public-Domain AND LGPL-2.1-or-later AND FTL AND MPL-1.1 AND LGPL-3.0-only AND OFL-1.1
 URL: https://github.com/telegramdesktop/%{appname}
 Summary: Telegram Desktop official messaging app
-Source0: %{url}/releases/download/v%{version}/%{appname}-%{version}-full.tar.gz
+#Source0: %{url}/releases/download/v%{version}/%{appname}-%{version}-full.tar.gz
 
 # Telegram Desktop require more than 8 GB of RAM on linking stage.
 # Disabling all low-memory architectures.
