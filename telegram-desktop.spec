@@ -20,6 +20,7 @@
 
 Name: telegram-desktop
 Version: 4.6.3
+Source0: https://github.com/telegramdesktop/tdesktop/releases/download/%{version}/tdesktop-%{version}-full.tar.gz
 Release: 1%{?dist}
 
 # Application and 3rd-party modules licensing:
